@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beber Mais Água</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Desafio de Beber Água</title>
+    <link rel="stylesheet" href="style-beba_agua.css">
 </head>
 <body>
-    <h2>Beber Mais Água</h2>
-    <p>Estabeleça lembretes para beber água a cada duas horas, com foco em evitar o uso de garrafas plásticas descartáveis. Incentive o uso de garrafas reutilizáveis.</p>
-    <button onclick="marcarConcluido()">Marcar como Concluído</button>
-    <button onclick="iniciarLembrete()">Iniciar Lembrete de Beber Água</button>
-    <div id="status"></div>
+    <div class="container">
+        <h1>Desafio: Beber Água a Cada 2 Horas</h1>
+        <p>Mantenha-se hidratado e cuide do meio ambiente usando garrafas reutilizáveis. Clique no botão abaixo para iniciar o lembrete.</p>
+        <button id="startReminder" onclick="startReminder()">Iniciar Lembrete</button>
+        <button id="stopReminder" onclick="stopReminder()" style="display:none;">Parar Lembrete</button>
+        <p id="statusMessage"></p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

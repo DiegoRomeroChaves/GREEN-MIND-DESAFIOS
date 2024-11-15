@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    background-image: url(IMAGEM/fundo\ site.jpeg);
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #00acc1;
+    color: white;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: white;
+}
+.desafios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.desafio-item {
+    text-align: center;
+    background-color: #034933;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.desafio-item:hover {
+    transform: scale(1.05);
+}
+
+.desafio-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.desafio-item:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: #690017;
+    border-radius: 20px;
+}
+
+.desafio-item:nth-child(2) {
+    grid-column: span 1;
+    grid-row: span 2;
+    background-color: #300089;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.desafio-item:nth-child(3) {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: #48ee06;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.desafio-item:nth-child(4) {
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: yellow;
+    border-radius: 15px;
+}
+
+.desafio-item:nth-child(5) {
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: #795900;
+    border-radius: 25px;
+}
+
+.desafio-item:nth-child(6) {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.desafio-item:nth-child(7) {
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: #004b69;
+    border-radius: 15px;
+}
+
+.desafio-item:nth-child(8) {
+    grid-column: span 4;
+    grid-row: span 2;
+    background-color: #dcdddd;
+    border-radius: 35px;
+}
+
+
