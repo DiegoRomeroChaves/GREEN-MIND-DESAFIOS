@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +9,13 @@
 <body>
     <div class="container">
         <h1>Desafio: Beber Água a Cada 2 Horas</h1>
-        <p>Mantenha-se hidratado e cuide do meio ambiente usando garrafas reutilizáveis. Clique no botão abaixo para iniciar o lembrete.</p>
-        <button id="startReminder" onclick="startReminder()">Iniciar Lembrete</button>
-        <button id="stopReminder" onclick="stopReminder()" style="display:none;">Parar Lembrete</button>
-        <p id="statusMessage"></p>
+        <p>Mantenha-se hidratado e cuide do meio ambiente usando garrafas reutilizáveis.</p>
+        <button id="startReminder" onclick="startTimer()">Iniciar Lembrete</button>
+        <button id="stopReminder" onclick="stopTimer()" style="display: none;">Parar Lembrete</button>
+        <div id="statusMessage"></div>
+        <div id="countdown" style="font-size: 1.5em; color: #00796b; margin-top: 15px;"></div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>

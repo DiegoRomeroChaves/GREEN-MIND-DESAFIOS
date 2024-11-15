@@ -1,27 +1,38 @@
-let reminderInterval;
+let countdownInterval;
+let countdownTime = 2 * 60 * 60; // 2 hours in seconds
 
-function startReminder() {
-    // Define o intervalo para o lembrete (2 horas = 7200000 ms)
-    reminderInterval = setInterval(() => {
-        alert("Lembrete: Beba água!");
-    }, 7200000);
-
-    // Atualiza a interface
+function startTimer() {
     document.getElementById("startReminder").style.display = "none";
-    document.getElementById("stopReminder").style.display = "inline";
-    document.getElementById("statusMessage").innerText = "Lembrete iniciado! Você receberá um alerta a cada 2 horas.";
+    document.getElementById("stopReminder").style.display = "inline-block";
+    countdownTime = 2 * 60 * 60; // Reinicia para 2 horas
+    updateCountdownDisplay();
+    
+    countdownInterval = setInterval(() => {
+        countdownTime--;
+        updateCountdownDisplay();
+        
+        if (countdownTime <= 0) {
+            alert("Hora de beber água!");
+            countdownTime = 2 * 60 * 60; // Reinicia o contador para 2 horas
+        }
+    }, 1000);
 }
 
-function stopReminder() {
-    // Limpa o intervalo do lembrete
-    clearInterval(reminderInterval);
-
-    // Atualiza a interface
-    document.getElementById("startReminder").style.display = "inline";
+function stopTimer() {
+    clearInterval(countdownInterval);
+    document.getElementById("startReminder").style.display = "inline-block";
     document.getElementById("stopReminder").style.display = "none";
-    document.getElementById("statusMessage").innerText = "Lembrete parado.";
+    document.getElementById("countdown").innerText = "";
 }
 
+function updateCountdownDisplay() {
+    const hours = Math.floor(countdownTime / 3600);
+    const minutes = Math.floor((countdownTime % 3600) / 60);
+    const seconds = countdownTime % 60;
+
+    document.getElementById("countdown").innerText = 
+        `Tempo restante: ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+}
 
 
 
