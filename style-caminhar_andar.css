@@ -1,21 +1,22 @@
-
+/* style-conduza_bicicleta.css */
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f1f8e9;
+    background-color: #e3f2fd;
+    color: #2e7d32;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url(IMAGEM/fundo\ site.jpeg);
+    background-image: url(IMAGEM/fundo\ site.jpeg); 
     background-size: cover;
     background-position: center;
 }
 
 .container {
     text-align: center;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.9);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -24,7 +25,7 @@ body {
 }
 
 h1 {
-    color: #558b2f;
+    color: #2e7d32;
     margin-bottom: 20px;
 }
 
@@ -35,10 +36,10 @@ p {
 }
 
 .input-container {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
-input {
+input, select {
     width: 90%;
     padding: 10px;
     margin: 10px 0;
@@ -48,7 +49,7 @@ input {
 }
 
 button {
-    background-color: #558b2f;
+    background-color:#2e7d32;
     color: white;
     padding: 12px 25px;
     border: none;
@@ -60,19 +61,7 @@ button {
 }
 
 button:hover {
-    background-color: #33691e;
-}
-
-h2 {
-    color: #33691e;
-    margin-top: 20px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    font-size: 1.1em;
-    color: #558b2f;
+    background-color:#2e7d32;
 }
 
 #statusMessage {
