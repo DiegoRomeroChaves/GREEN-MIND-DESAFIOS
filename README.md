@@ -40,12 +40,11 @@ A página de **Desafios Ambientais** é projetada para engajar os usuários em a
    - **Informações Educativas**: Cada desafio é acompanhado de uma breve explicação sobre seu impacto positivo e dicas adicionais para torná-lo mais eficaz.
    - **Histórias Inspiradoras**: Compartilhamento de histórias de outros participantes que completaram vários desafios, servindo como inspiração para novos usuários.
    - 
-
-   ![image](https://github.com/user-attachments/assets/732d9b22-f407-419b-a29f-a9d34c465f09)
-
-
 ### 9. **Recursos Visuais e Design Interativo**
    - **Design Atrativo**: Ícones e imagens que representam cada desafio, tornando a página visualmente interessante e amigável.
    - **Navegação Intuitiva**: Facilita o acesso entre os desafios e permite que os usuários acompanhem seu progresso de maneira simples.
 
 A página de Desafios Ambientais não apenas promove práticas sustentáveis, mas também incentiva a criação de uma comunidade ambientalmente consciente. Ao combinar motivação, educação e gamificação, essa página oferece uma experiência engajadora e transformadora, ajudando os usuários a adotar um estilo de vida mais sustentável de maneira prática e acessível.
+
+![image](https://github.com/user-attachments/assets/4de2562e-7c65-40a5-8a93-a8e92b1977ea)
+
