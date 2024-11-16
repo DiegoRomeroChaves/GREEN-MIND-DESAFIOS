@@ -39,6 +39,10 @@ A página de **Desafios Ambientais** é projetada para engajar os usuários em a
 ### 8. **Área de Educação e Inspiração**
    - **Informações Educativas**: Cada desafio é acompanhado de uma breve explicação sobre seu impacto positivo e dicas adicionais para torná-lo mais eficaz.
    - **Histórias Inspiradoras**: Compartilhamento de histórias de outros participantes que completaram vários desafios, servindo como inspiração para novos usuários.
+   - 
+
+   ![image](https://github.com/user-attachments/assets/732d9b22-f407-419b-a29f-a9d34c465f09)
+
 
 ### 9. **Recursos Visuais e Design Interativo**
    - **Design Atrativo**: Ícones e imagens que representam cada desafio, tornando a página visualmente interessante e amigável.
